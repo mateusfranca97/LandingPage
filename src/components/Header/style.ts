@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    display:flex;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 0rem 4rem;
 
     h1{
+        margin: 0rem 5rem;
         color: var(--fontColor);
         font-family: 'Bebas Neue', sans-serif;
 
@@ -16,16 +17,19 @@ export const Container = styled.header`
     }
 
     ul{
-        padding-right: 1rem;
-        list-style-type: none;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        gap: 1rem;
+        margin-right:3.5rem;
+        list-style-type: none;
 
         li{
-            cursor: pointer;
-            padding-left: 6.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:6rem;
+            height: 2rem;
             color: var(--fontColor);
+            cursor: pointer;
         }
     }
 `

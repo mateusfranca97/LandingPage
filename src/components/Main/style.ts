@@ -1,14 +1,33 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-    .description{
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
 
-        padding-top: 8rem;
-        margin: 0rem 10rem;
+    padding-top: 8rem;
+    margin: 0rem 5rem;
+
+    .home{
+        height: 80vh;
+
+        h1, span{
+            margin-top: 5rem;
+            font-family: 'Bebas Neue';
+            font-size: 3rem;
+            color: var(--fontColor);
+
+            span{
+                color: var(--secondaryColor);
+            }
+        }
+    }
+
+    .about{
+        height: 65vh;
+
+        .text{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
 
         h1{
             font-size: 3rem;
@@ -25,7 +44,6 @@ export const Container = styled.main`
                 color: var(--secondaryColor);
             }
         }
+        
     }
-
-    
 `
