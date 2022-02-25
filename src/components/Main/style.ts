@@ -5,8 +5,9 @@ export const Container = styled.main`
     padding-top: 8rem;
     margin: 0rem 5rem;
 
+
     .home{
-        height: 80vh;
+        height: 70vh;
 
         h1, span{
             margin-top: 5rem;

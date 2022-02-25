@@ -5,8 +5,8 @@ export function Header(){
        <Container>
            <h1>MATEUS<text>DEV</text></h1>
            <ul>
-               <li>Ínicio</li>
-               <li>Sobre</li>
+               <li><a href="#home">Ínicio</a></li>
+               <li><a href="#about">Sobre</a></li>
                <li>Portfólio</li>
                <li>Skills</li>
            </ul>

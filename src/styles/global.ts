@@ -14,6 +14,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Nunito',sans-serif;
     }
 
+    html{
+        scroll-behavior: smooth;
+    }
+
+
     body {
         background: var(--primaryColor);
     }
