@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
+import { ButtonFixed } from "./components/ButtonFixed";
 import { GlobalStyle } from "./styles/global";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
     <>
       <Header/>
       <Main/>
+
+      <ButtonFixed/>
       <GlobalStyle/>
     </>
   )

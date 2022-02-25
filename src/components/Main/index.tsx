@@ -1,3 +1,4 @@
+import { ButtonFixed } from "../Button/style";
 import { Container } from "./style";
 
 
