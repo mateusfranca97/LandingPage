@@ -7,8 +7,8 @@ export function Header(){
            <ul>
                <li><a href="#home">Ínicio</a></li>
                <li><a href="#about">Sobre</a></li>
-               <li>Portfólio</li>
-               <li>Skills</li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#portfolio">Portfólio</a></li>
            </ul>
        </Container> 
     )

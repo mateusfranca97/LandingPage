@@ -26,10 +26,27 @@ export const Container = styled.header`
             display: flex;
             justify-content: center;
             align-items: center;
-            width:6rem;
-            height: 2rem;
             color: var(--fontColor);
             cursor: pointer;
+            
+            a{   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                border-radius: 2rem;
+                width:6rem;
+                height: 2rem;
+                
+                color: inherit;
+                text-decoration: none;
+                transition: .5s;
+
+                &:hover{
+                    transition: .5s;
+                    background: var(--tertiaryColor);
+                }
+            }
         }
     }
 `
