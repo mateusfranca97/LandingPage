@@ -5,6 +5,11 @@ export const Container = styled.header`
     align-items: center;
     justify-content: space-between;
 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--primaryColor);
+
     h1{
         margin: 0rem 5rem;
         color: var(--fontColor);

@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
     }
 
-
     body {
         background: var(--primaryColor);
         /* overflow: hidden;  Hide scrollbars */

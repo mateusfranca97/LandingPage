@@ -19,7 +19,8 @@ export const Container = styled.main`
     }
 
     .home{
-        height: 70vh;
+        height: 65vh;
+        padding-top: 14rem;
 
         h1, span{
             margin-top: 5rem;
@@ -31,6 +32,7 @@ export const Container = styled.main`
     }
 
     .about{
+        padding-top:12rem;
         height: 65vh;
 
         text{
@@ -49,10 +51,13 @@ export const Container = styled.main`
     .skills{
         display: flex;
         flex-direction: column;
+        padding-top: 2rem;
+
+        height:100vh;
 
         h1{
             margin-left: 47%;
-            padding-bottom: 2rem;
+            padding-bottom: 1rem;
         }
     }
 `

@@ -21,7 +21,7 @@ export function Main(){
                 </div>
             </div>
 
-            <div className="skills">
+            <div className="skills" id="skills">
                 <h1>Skills</h1>
                 <SkillComponent text="HTML"/>
                 <SkillComponent text="CSS"/>
