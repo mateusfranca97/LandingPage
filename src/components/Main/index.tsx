@@ -35,9 +35,9 @@ export function Main(){
             <div className="portfolio" id="portfolio">
                 <h1>Meus Projetos</h1>
                 <div className="projectList">
-                    <ProjectComponent href="https://github.com/mateusfranca97/ws_dtmoney"/>
-                    <ProjectComponent href="#"/>
-                    <ProjectComponent href="#"/>
+                    <ProjectComponent href="https://github.com/mateusfranca97/ws_dtmoney" target="_blank"/>
+                    <ProjectComponent href="https://github.com/mateusfranca97/ws_industrialportifolio" target="_blank"/>
+                    <ProjectComponent href="#" target="_blank"/>
                 </div>
             </div>
         </Container>
