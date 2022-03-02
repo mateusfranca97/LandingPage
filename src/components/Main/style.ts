@@ -60,4 +60,21 @@ export const Container = styled.main`
             padding-bottom: 1rem;
         }
     }
+
+    .portfolio{
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .projectList{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+
+
+        }
+    }
 `

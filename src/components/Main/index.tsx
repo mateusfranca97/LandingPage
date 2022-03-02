@@ -1,3 +1,4 @@
+import { ProjectComponent } from "../ProjectComponent";
 import { SkillComponent } from "../SkillComponent";
 import { Container } from "./style";
 
@@ -29,6 +30,15 @@ export function Main(){
                 <SkillComponent text="TYPESCRIPT"/>
                 <SkillComponent text="SASS"/>
                 <SkillComponent text="JAVASCRIPT"/>
+            </div>
+
+            <div className="portfolio" id="portfolio">
+                <h1>Meus Projetos</h1>
+                <div className="projectList">
+                    <ProjectComponent href="https://github.com/mateusfranca97/ws_dtmoney"/>
+                    <ProjectComponent href="#"/>
+                    <ProjectComponent href="#"/>
+                </div>
             </div>
         </Container>
     )
