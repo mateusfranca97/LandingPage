@@ -12,9 +12,8 @@ export function SkillComponent(props: SkillComponentProps){
             <div className="name">
                 <li>{props.text}</li>
             </div>
-           
             <div className="power">
-                <Power/>
+                <Power className="html"/>
                 <Power/>
                 <Power/>
                 <Power/>

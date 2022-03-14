@@ -7,4 +7,15 @@ export const Container = styled.div`
 
     margin-left: 1rem; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+
+
+    
+    &:nth-child(1){
+            background: var(--tertiaryColor);
+    }
+
+    &:nth-child(2){
+            background: var(--tertiaryColor);
+    }
+    
 `

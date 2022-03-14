@@ -21,6 +21,9 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: var(--primaryColor);
-        /* overflow: hidden;  Hide scrollbars */
+        overflow: hidden;  Hide scrollbars
     }
+
+    
+
 `

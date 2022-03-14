@@ -9,7 +9,7 @@ function App() {
       <Header/>
       <Main/>
 
-      <ButtonFixed/>
+      <ButtonFixed href="https://www.linkedin.com/in/mateusfranca97/" target="_blank"/>
       <GlobalStyle/>
     </>
   )

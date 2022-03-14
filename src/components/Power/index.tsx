@@ -1,8 +1,12 @@
 import { Container } from './style'
 
-export function Power(){
+type PowerProps = {
+    className?: string;
+}
+
+export function Power(props: PowerProps){
     return(
-        <Container>
+        <Container className={props.className}>
             
         </Container>
     )

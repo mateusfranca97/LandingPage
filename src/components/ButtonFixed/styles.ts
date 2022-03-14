@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const Container = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
     color: var(--tertiaryColor);
     font-size: 1.2rem;
     background: var(--primaryColor);
@@ -11,12 +17,16 @@ export const Button = styled.button`
     width: 18rem;
     position: fixed;
     bottom: 2rem;
-    left: 68rem;
+    left: 64rem;
     cursor: pointer;
 
     &:hover{
         color: var(--primaryColor);
         background: var(--tertiaryColor);
         transition: .5s;
+    }
+
+    @media(min-width: 1367px){
+        left: 71rem;
     }
 `

@@ -1,9 +1,14 @@
-import { Button } from './styles'
+import { Container } from './styles'
 
-export function ButtonFixed(){
+type ButtonFixedProps = {
+    href: string;
+    target: string;
+}
+
+export function ButtonFixed(props: ButtonFixedProps){
     return(
-        <Button>
-            <text>Fale comigo :<span>&#41;</span> </text>
-        </Button>
+        <Container href={props.href} target={props.target}>
+            <text >Fale comigo :<span>&#41;</span> </text>
+        </Container>
     )
 }
